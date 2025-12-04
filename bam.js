@@ -1,10 +1,10 @@
-// Hamburger menu toggle
 document.addEventListener("DOMContentLoaded", () => {
-  const hamburger = document.getElementById("hamburger");
-  const navMenu = document.getElementById("nav-menu");
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector("header nav");
 
   hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
     hamburger.classList.toggle("open");
   });
 });
+
